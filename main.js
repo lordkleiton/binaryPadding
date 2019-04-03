@@ -25,7 +25,7 @@ function padding(a, b){
     if ((a >= 0) && (b > 0)){
         let r = dec2bin(a).toString();
     
-        if ((b >= 0) && (r.length <= b)){
+        if (r.length <= b){
             let dif = b - r.length;
             let aux = '';
 
