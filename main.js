@@ -22,7 +22,7 @@ function padding(a, b){
      * @returns The padded string
      */
 
-    if ((a >= 0) && (b >= 0)){
+    if ((a >= 0) && (b > 0)){
         let r = dec2bin(a).toString();
     
         if ((b >= 0) && (r.length <= b)){
